@@ -2,13 +2,13 @@ export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden bg-brand-950 text-white">
       <div
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-30"
         style={{
           backgroundImage:
-            "radial-gradient(circle at 20% 20%, #d4a53a 0%, transparent 40%), radial-gradient(circle at 80% 60%, #3d8866 0%, transparent 45%)",
+            "radial-gradient(circle at 20% 15%, #e17d34 0%, transparent 45%), radial-gradient(circle at 85% 70%, #c04108 0%, transparent 50%)",
         }}
       />
-      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(12,32,25,0.2),rgba(12,32,25,0.95))]" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(12,10,9,0.3),rgba(12,10,9,0.95))]" />
 
       <div className="container-x relative z-10 py-24 md:py-36">
         <div className="max-w-3xl">

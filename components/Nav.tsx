@@ -1,17 +1,18 @@
+import Image from "next/image";
+
 export default function Nav() {
   return (
-    <header className="sticky top-0 z-40 border-b border-brand-100 bg-white/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-brand-100 bg-white/90 backdrop-blur-md">
       <div className="container-x flex h-20 items-center justify-between">
-        <a href="#top" className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand-700 font-display text-xl font-bold text-white">
-            A
-          </div>
-          <div className="leading-tight">
-            <div className="font-display text-lg font-bold text-brand-900">Avera Lending</div>
-            <div className="text-[10px] font-semibold uppercase tracking-widest text-brand-500">
-              Private Money · Nationwide
-            </div>
-          </div>
+        <a href="#top" className="flex items-center">
+          <Image
+            src="/logo.webp"
+            alt="Avera Lending LLC — Private Money Broker"
+            width={329}
+            height={231}
+            priority
+            className="h-14 w-auto"
+          />
         </a>
         <nav className="hidden items-center gap-8 md:flex">
           <a href="#services" className="text-sm font-medium text-brand-800 hover:text-brand-600">Services</a>
